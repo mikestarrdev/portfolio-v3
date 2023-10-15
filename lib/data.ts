@@ -2,6 +2,12 @@ import React from 'react';
 import { CgWorkAlt } from 'react-icons/cg';
 import { LuGraduationCap } from 'react-icons/lu';
 import memberDashboard from '@/public/memberDashboard.png';
+import airswapWeb from '@/public/airswapWeb.png';
+import wrapeth from '@/public/wrapeth.png';
+import rom from '@/public/rom.png';
+import Kaching from '@/public/kaching.png';
+import octav3 from '@/public/octav3.png';
+import designSystem from '@/public/designSystem.png';
 
 export const links = [
   {
@@ -93,7 +99,7 @@ export const projectsData = [
     ],
     github: 'https://github.com/airswap/airswap-web',
     app: 'https://swap.eth.limo/#/',
-    imageUrl: memberDashboard,
+    imageUrl: airswapWeb,
   },
   {
     title: 'WrapETH',
@@ -104,7 +110,7 @@ export const projectsData = [
     tags: ['TypeScript', 'React', 'Next.js', 'Chakra-UI', 'Wagmi'],
     github: 'https://github.com/raid-guild/wrapeth',
     app: 'https://wrapeth.com',
-    imageUrl: memberDashboard,
+    imageUrl: wrapeth,
   },
   {
     title: 'Rite of Moloch',
@@ -115,7 +121,7 @@ export const projectsData = [
     tags: ['TypeScript', 'React', 'Next.js', 'Chakra-UI', 'Wagmi'],
     github: 'https://github.com/rite-of-moloch/RiteOfMoloch-v1.0',
     app: 'https://rom.wtf',
-    imageUrl: memberDashboard,
+    imageUrl: rom,
   },
   {
     title: 'RaidGuild Design System',
@@ -126,7 +132,7 @@ export const projectsData = [
     tags: ['TypeScript', 'Storybook', 'Chakra-UI', 'React-hook-form'],
     github: 'https://github.com/airswap/airswap-voter-rewards',
     app: 'https://dao.airswap.eth.limo',
-    imageUrl: memberDashboard,
+    imageUrl: designSystem,
   },
   {
     title: 'Kaching',
@@ -144,7 +150,7 @@ export const projectsData = [
     ],
     github: 'https://github.com/personnamedmike/KachingETHDenver',
     app: 'https://dao.airswap.eth.limo',
-    imageUrl: memberDashboard,
+    imageUrl: Kaching,
   },
   {
     title: 'OCTAV3',
@@ -155,7 +161,7 @@ export const projectsData = [
     tags: ['JavaScript', 'React', 'TailwindCSS', 'Ethers.js'],
     github: undefined,
     app: 'https://www.octav3.com/',
-    imageUrl: memberDashboard,
+    imageUrl: octav3,
   },
 ] as const;
 
