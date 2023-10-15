@@ -1,9 +1,7 @@
 import React from 'react';
 import { CgWorkAlt } from 'react-icons/cg';
 import { LuGraduationCap } from 'react-icons/lu';
-import corpcommentImg from '@/public/corpcomment.png';
-import rmtdevImg from '@/public/rmtdev.png';
-import wordanalyticsImg from '@/public/wordanalytics.png';
+import memberDashboard from '@/public/memberDashboard.png';
 
 export const links = [
   {
@@ -77,7 +75,7 @@ export const projectsData = [
     tags: ['TypeScript', 'JavaScript', 'React', 'Tailwind', 'Web3', 'Wagmi'],
     github: 'https://github.com/airswap/airswap-voter-rewards',
     app: 'https://dao.airswap.eth.limo',
-    imageUrl: corpcommentImg,
+    imageUrl: memberDashboard,
   },
   {
     title: 'AirSwap Web',
@@ -95,7 +93,7 @@ export const projectsData = [
     ],
     github: 'https://github.com/airswap/airswap-web',
     app: 'https://swap.eth.limo/#/',
-    imageUrl: rmtdevImg,
+    imageUrl: memberDashboard,
   },
   {
     title: 'WrapETH',
@@ -106,7 +104,7 @@ export const projectsData = [
     tags: ['TypeScript', 'React', 'Next.js', 'Chakra-UI', 'Wagmi'],
     github: 'https://github.com/raid-guild/wrapeth',
     app: 'https://wrapeth.com',
-    imageUrl: wordanalyticsImg,
+    imageUrl: memberDashboard,
   },
   {
     title: 'Rite of Moloch',
@@ -117,7 +115,7 @@ export const projectsData = [
     tags: ['TypeScript', 'React', 'Next.js', 'Chakra-UI', 'Wagmi'],
     github: 'https://github.com/rite-of-moloch/RiteOfMoloch-v1.0',
     app: 'https://rom.wtf',
-    imageUrl: wordanalyticsImg,
+    imageUrl: memberDashboard,
   },
   {
     title: 'RaidGuild Design System',
@@ -128,7 +126,7 @@ export const projectsData = [
     tags: ['TypeScript', 'Storybook', 'Chakra-UI', 'React-hook-form'],
     github: 'https://github.com/airswap/airswap-voter-rewards',
     app: 'https://dao.airswap.eth.limo',
-    imageUrl: wordanalyticsImg,
+    imageUrl: memberDashboard,
   },
   {
     title: 'Kaching',
@@ -146,7 +144,7 @@ export const projectsData = [
     ],
     github: 'https://github.com/personnamedmike/KachingETHDenver',
     app: 'https://dao.airswap.eth.limo',
-    imageUrl: wordanalyticsImg,
+    imageUrl: memberDashboard,
   },
   {
     title: 'OCTAV3',
@@ -157,7 +155,7 @@ export const projectsData = [
     tags: ['JavaScript', 'React', 'TailwindCSS', 'Ethers.js'],
     github: undefined,
     app: 'https://www.octav3.com/',
-    imageUrl: wordanalyticsImg,
+    imageUrl: memberDashboard,
   },
 ] as const;
 
