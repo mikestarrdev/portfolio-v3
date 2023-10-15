@@ -56,7 +56,8 @@ export default function Project({
             )}
             {app && (
               <span>
-                <span className="mx-2">|</span>
+                {/* handles close-sourced projects */}
+                {github && <span className="mx-2">|</span>}
                 <a href={app} target="_">
                   App
                 </a>
