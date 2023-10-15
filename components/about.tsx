@@ -1,12 +1,12 @@
-"use client";
+'use client';
 
-import React from "react";
-import SectionHeading from "./section-heading";
-import { motion } from "framer-motion";
-import { useSectionInView } from "@/lib/hooks";
+import React from 'react';
+import SectionHeading from './section-heading';
+import { motion } from 'framer-motion';
+import { useSectionInView } from '@/lib/hooks';
 
 export default function About() {
-  const { ref } = useSectionInView("About");
+  const { ref } = useSectionInView('About');
 
   return (
     <motion.section
@@ -18,31 +18,50 @@ export default function About() {
       id="about"
     >
       <SectionHeading>About me</SectionHeading>
-      <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
-      </p>
-
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+        I transitioned from digital marketing to software engineering. Now, I'm
+        a developer at AirSwap, a decentralized protocol that has facilitated
+        trades worth over $3.68 billion in value. I'm passionate about crafting
+        top-notch user experiences. My skill set includes React, TypeScript,
+        JavaScript, CSS, and HTML. But, my goal? Building apps that truly
+        connect with users.
+      </p>
+      <h3 className="my-4 text-2xl font-semibold">The beginning</h3>
+      <p>
+        The Beginning In 2020, I dove into software development, starting with
+        JavaScript. Feeling the pull, I took it up a notch. I enrolled at
+        Flatiron School for full-stack software engineering. There, I got
+        hands-on with languages and tech: JavaScript, React, Ruby, Ruby on
+        Rails, REST API, Sinatra, and Active Record. But Flatiron wasn't just
+        about coding; it taught me how to learn. That experience boosted my
+        foundation in software dev and my confidence.
+      </p>
+      <h3 className="my-4 text-2xl font-semibold">
+        Entering the world of blockchain
+      </h3>
+      <p>
+        Entering the Technical World of Blockchain After graduation, I explored
+        the blockchain ecosystem by participating in renowned hackathons
+        including ETH Global New York, ETH Global Metabolism, ETH Online 2022,
+        and ETH Denver 2023. Notably, during ETH Global Metabolism, my team was
+        awarded a prize by Filecoin for our innovative use of nft.storage, which
+        leverages IPFS.
+      </p>
+      <h3 className="my-4 text-2xl font-semibold">Journey with RaidGuild</h3>
+      <p>
+        Journey with RaidGuild August 2022 was special. I teamed up with the
+        folks at RaidGuild. Moving from collaboration to full membership, it was
+        a game-changer for my career. It was more than development; I learned
+        the ins and outs of DAOs.
+      </p>
+      <h3 className="my-4 text-2xl font-semibold">AirSwap and beyond</h3>
+      <p>
+        AirSwap and Beyond By Spring 2023, I joined the AirSwap team. We're all
+        about developer-focused solutions. Our main product? A decentralized
+        exchange (DEX) that allows users to engage in server-based trading with
+        professional market-makers. Additionally, we offer peer-to-peer OTC
+        trades of ERC20 tokens. We're currently building an NFT marketplace and
+        have a Voter Rewards staking app in the pipeline.
       </p>
     </motion.section>
   );
