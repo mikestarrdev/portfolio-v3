@@ -1,6 +1,6 @@
-import React from 'react';
 import { CgWorkAlt } from 'react-icons/cg';
 import { LuGraduationCap } from 'react-icons/lu';
+import { FaReact } from 'react-icons/fa';
 import memberDashboard from '@/public/memberDashboard.png';
 import airswapWeb from '@/public/airswapWeb.png';
 import wrapeth from '@/public/wrapeth.png';
@@ -8,6 +8,7 @@ import rom from '@/public/rom.png';
 import Kaching from '@/public/kaching.png';
 import octav3 from '@/public/octav3.png';
 import designSystem from '@/public/designSystem.png';
+import React from 'react';
 
 export const links = [
   {
@@ -58,7 +59,7 @@ export const experiencesData = [
     location: 'Remote',
     description:
       'I freelanced as a front-end developer, acquiring valuable experience with Web3 technology. During my tenure at RaidGuild, I collaborated with multiple teams to create new open-source applications and sustain existing applications serving as public goods.',
-    icon: React.createElement(CgWorkAlt),
+    icon: React.createElement(FaReact),
     date: 'Aug 2022 - June 2023',
   },
   {
@@ -66,7 +67,7 @@ export const experiencesData = [
     location: 'Remote',
     description:
       "My primary contribution to AirSwap has been the front-end development of the Member Dashboard app. Additionally, I worked on maintaining and developing new features for AirSwap's decentralized trading product, which handles over $1.4 billion in annual volume. My work as a web developer involved using TypeScript, React, Tailwind, Styled-Components, and Ethers.js.",
-    icon: React.createElement(CgWorkAlt),
+    icon: React.createElement(FaReact),
     date: 'May 2023 - present',
   },
 ] as const;
