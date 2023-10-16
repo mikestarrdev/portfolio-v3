@@ -28,37 +28,36 @@ export default function About() {
       </p>
       <h3 className="my-4 text-2xl font-semibold">The beginning</h3>
       <p>
-        The Beginning In 2020, I dove into software development, starting with
-        JavaScript. Feeling the pull, I took it up a notch. I enrolled at
-        Flatiron School for full-stack software engineering. There, I got
-        hands-on with languages and tech: JavaScript, React, Ruby, Ruby on
-        Rails, REST API, Sinatra, and Active Record. But Flatiron wasn't just
-        about coding; it taught me how to learn. That experience boosted my
-        foundation in software dev and my confidence.
+        In 2020, I dove into software development, starting with JavaScript.
+        Feeling the pull, I took it up a notch. I enrolled at Flatiron School
+        for full-stack software engineering. There, I got hands-on with
+        languages and tech: JavaScript, React, Ruby, Ruby on Rails, REST API,
+        Sinatra, and Active Record. But Flatiron wasn't just about coding; it
+        taught me how to learn. That experience boosted my foundation in
+        software dev and my confidence.
       </p>
       <h3 className="my-4 text-2xl font-semibold">
         Entering the world of blockchain
       </h3>
       <p>
-        Entering the Technical World of Blockchain After graduation, I explored
-        the blockchain ecosystem by participating in renowned hackathons
-        including ETH Global New York, ETH Global Metabolism, ETH Online 2022,
-        and ETH Denver 2023. Notably, during ETH Global Metabolism, my team was
-        awarded a prize by Filecoin for our innovative use of nft.storage, which
-        leverages IPFS.
+        After graduation, I explored the blockchain ecosystem by participating
+        in renowned hackathons including ETH Global New York, ETH Global
+        Metabolism, ETH Online 2022, and ETH Denver 2023. Notably, during ETH
+        Global Metabolism, my team was awarded a prize by Filecoin for our
+        innovative use of nft.storage, which leverages IPFS.
       </p>
       <h3 className="my-4 text-2xl font-semibold">Journey with RaidGuild</h3>
       <p>
-        Journey with RaidGuild August 2022 was special. I teamed up with the
-        folks at RaidGuild. Moving from collaboration to full membership, it was
-        a game-changer for my career. It was more than development; I learned
-        the ins and outs of DAOs.
+        August 2022 was special. I teamed up with the folks at RaidGuild. Moving
+        from collaboration to full membership, it was a game-changer for my
+        career. It was more than development; I learned the ins and outs of
+        DAOs.
       </p>
       <h3 className="my-4 text-2xl font-semibold">AirSwap and beyond</h3>
       <p>
-        AirSwap and Beyond By Spring 2023, I joined the AirSwap team. We're all
-        about developer-focused solutions. Our main product? A decentralized
-        exchange (DEX) that allows users to engage in server-based trading with
+        By Spring 2023, I joined the AirSwap team. We're all about
+        developer-focused solutions. Our main product? A decentralized exchange
+        (DEX) that allows users to engage in server-based trading with
         professional market-makers. Additionally, we offer peer-to-peer OTC
         trades of ERC20 tokens. We're currently building an NFT marketplace and
         have a Voter Rewards staking app in the pipeline.
