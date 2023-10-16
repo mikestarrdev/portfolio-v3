@@ -13,6 +13,10 @@ const inter = Inter({ subsets: ['latin'] });
 export const metadata: Metadata = {
   title: 'Mike Starr | Personal Portfolio',
   description: 'Software developer who specializes in front-end technologies',
+  openGraph: {
+    images:
+      'https://avatars.githubusercontent.com/u/90465420?s=400&u=23d893db2307e8c2062626fe14c2da0c008128ff&v=4',
+  },
 };
 
 export default function RootLayout({
