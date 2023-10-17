@@ -4,7 +4,6 @@ import { FaReact } from 'react-icons/fa';
 import memberDashboard from '@/public/memberDashboard.png';
 import airswapWeb from '@/public/airswapWeb.png';
 import wrapeth from '@/public/wrapeth.png';
-import wrapeth2 from '@/public/wrapeth2.png';
 import rom from '@/public/rom.png';
 import Kaching from '@/public/kaching.png';
 import octav3 from '@/public/octav3.png';
@@ -115,7 +114,7 @@ export const projectsData = [
     github: 'https://github.com/raid-guild/wrapeth',
     app: 'https://wrapeth.com',
     demo: 'https://vimeo.com/766531266?share=copy',
-    imageUrl: wrapeth2,
+    imageUrl: wrapeth,
   },
   {
     title: 'Rite of Moloch',
@@ -136,8 +135,8 @@ export const projectsData = [
     contributions:
       'Upgraded the Number Input component with React-hook-form, and the Wallet Connect button components',
     tags: ['TypeScript', 'Storybook', 'Chakra-UI', 'React-hook-form'],
-    github: 'https://github.com/airswap/airswap-voter-rewards',
-    app: 'https://dao.airswap.eth.limo',
+    github: 'https://github.com/raid-guild/design-system',
+    app: undefined,
     demo: undefined,
     imageUrl: designSystem,
   },
@@ -156,8 +155,8 @@ export const projectsData = [
       'REST API',
     ],
     github: 'https://github.com/personnamedmike/KachingETHDenver',
-    app: 'https://dao.airswap.eth.limo',
-    demo: 'https://vimeo.com/817957065?share=copy',
+    app: 'https://kaching-eth-denver.vercel.app/login',
+    demo: 'https://vimeo.com/817957065',
     imageUrl: Kaching,
   },
   {
