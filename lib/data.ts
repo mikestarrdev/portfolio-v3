@@ -200,7 +200,7 @@ export const skillsData = [
 export const hackathons = [
   {
     title: 'ETH Denver',
-    dates: 'Feb 24, 2023 - March 5, 20223',
+    dates: 'Feb 24, 2023 - March 5, 2023',
     projectTitle: 'Kaching',
     problem: 'The UX of sending crypto is too confusing for most people.',
     solution:
