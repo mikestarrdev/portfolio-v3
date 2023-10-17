@@ -12,7 +12,7 @@ import { useSectionInView } from '@/lib/hooks';
 import { useActiveSectionContext } from '@/context/active-section-context';
 import avatar from '../public/avatar.jpg';
 
-export default function Intro() {
+export const Intro = () => {
   const { ref } = useSectionInView('Home', 0.5);
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
 
@@ -126,4 +126,4 @@ export default function Intro() {
       </motion.div>
     </section>
   );
-}
+};

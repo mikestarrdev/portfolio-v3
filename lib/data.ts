@@ -192,3 +192,44 @@ export const skillsData = [
   'Responsive design',
   'Web development',
 ] as const;
+
+export const hackathons = [
+  {
+    title: 'ETH Denver',
+    dates: 'Feb 24, 2023 - March 5, 20223',
+    projectTitle: 'Kaching',
+    problem: 'Crypto wallet UX is too clunky for the average user',
+    solution:
+      "Use Keyp's API which utilizes account abstraction to simplify the process",
+    awards:
+      'Won a cash prize from Keyp (https://www.usekeyp.com/) for integration of their API',
+    github: 'https://github.com/personnamedmike/KachingETHDenver',
+    app: 'https://kaching-eth-denver.vercel.app/login',
+    showcase: undefined,
+  },
+  {
+    title: 'ETH Global - ETHOnline',
+    dates: 'Sept 2 - 28, 2022',
+    projectTitle: 'Timekeeper',
+    problem: 'Lack of solutions for Web3 calendar booking service',
+    solution:
+      'Timekeeper allows you to book appointments with people and store the appointments on the blockchain. This signals a higher level of commitment, accountability, and reduces the likelihood of cancellations.',
+    awards: 'Cash prize for integration of XMTP protocol',
+    github: 'https://github.com/Timekeepr-me',
+    app: 'https://octav3.com/',
+    showcase: 'https://ethglobal.com/showcase/timekeepr-7sxm3',
+  },
+  {
+    title: 'ETH Global - Metabolism',
+    dates: 'Aug 4 - 10, 2022',
+    projectTitle: 'Octave',
+    problem:
+      'The current music streaming model is broken. Platforms take huge cuts from artists, advertisers get access to user data and there’s absolutely no transparency in the whole process.',
+    solution:
+      'A decentralised audio streaming platform; for the discovery of music by listeners and the distribution of ads to monetize this music.',
+    awards: 'IPFS Prize Winner for integration of NFT.storage',
+    github: undefined,
+    app: 'https://octav3.com/',
+    showcase: 'https://ethglobal.com/showcase/octav3-3o04c',
+  },
+] as const;
