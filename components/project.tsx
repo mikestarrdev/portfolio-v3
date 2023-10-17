@@ -8,7 +8,7 @@ import Link from 'next/link';
 
 type ProjectProps = (typeof projectsData)[number];
 
-export default function Project({
+export const Project = ({
   title,
   description,
   contributions,
@@ -17,7 +17,7 @@ export default function Project({
   demo,
   tags,
   imageUrl,
-}: ProjectProps) {
+}: ProjectProps) => {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
     target: ref,
@@ -109,4 +109,4 @@ export default function Project({
       </section>
     </motion.div>
   );
-}
+};

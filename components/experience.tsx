@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import SectionHeading from './section-heading';
+import { SectionHeading } from './section-heading';
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -11,7 +11,7 @@ import { experiencesData } from '@/lib/data';
 import { useSectionInView } from '@/lib/hooks';
 import { useTheme } from '@/context/theme-context';
 
-export default function Experience() {
+export const Experience = () => {
   const { ref } = useSectionInView('Experience');
   const { theme } = useTheme();
 
@@ -55,4 +55,4 @@ export default function Experience() {
       <VerticalTimeline lineColor="">{experienceData} </VerticalTimeline>
     </section>
   );
-}
+};

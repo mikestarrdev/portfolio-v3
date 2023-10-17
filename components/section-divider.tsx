@@ -1,9 +1,9 @@
-"use client";
+'use client';
 
-import React from "react";
-import { motion } from "framer-motion";
+import React from 'react';
+import { motion } from 'framer-motion';
 
-export default function SectionDivider() {
+export const SectionDivider = () => {
   return (
     <motion.div
       className="bg-gray-200 my-24 h-16 w-1 rounded-full hidden sm:block dark:bg-opacity-20"
@@ -12,4 +12,4 @@ export default function SectionDivider() {
       transition={{ delay: 0.125 }}
     ></motion.div>
   );
-}
+};
