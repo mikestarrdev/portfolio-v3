@@ -27,10 +27,7 @@ export const Hackathons = () => {
         <p className="">
           <span className="font-semibold">Dates:</span> {hackathon.dates}
         </p>
-        <p>
-          <span className="font-semibold">Project title:</span>{' '}
-          {hackathon.title}
-        </p>
+
         <p>
           <span className="font-semibold">Problem:</span> {hackathon.problem}
         </p>
