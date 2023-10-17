@@ -32,6 +32,10 @@ export const links = [
     hash: '#experience',
   },
   {
+    name: 'Hackathons',
+    hash: '#hackathons',
+  },
+  {
     name: 'Contact',
     hash: '#contact',
   },
@@ -198,11 +202,10 @@ export const hackathons = [
     title: 'ETH Denver',
     dates: 'Feb 24, 2023 - March 5, 20223',
     projectTitle: 'Kaching',
-    problem: 'Crypto wallet UX is too clunky for the average user',
+    problem: 'The UX of sending crypto is too confusing for most people.',
     solution:
-      "Use Keyp's API which utilizes account abstraction to simplify the process",
-    awards:
-      'Won a cash prize from Keyp (https://www.usekeyp.com/) for integration of their API',
+      "Use Keyp's API, which employs account abstraction, to simplify the user experience of sending cryptocurrency.",
+    awards: 'Integration of Keyp API.',
     github: 'https://github.com/personnamedmike/KachingETHDenver',
     app: 'https://kaching-eth-denver.vercel.app/login',
     showcase: undefined,
@@ -211,12 +214,12 @@ export const hackathons = [
     title: 'ETH Global - ETHOnline',
     dates: 'Sept 2 - 28, 2022',
     projectTitle: 'Timekeeper',
-    problem: 'Lack of solutions for Web3 calendar booking service',
+    problem: "There's a lack of solutions for Web3 calendar booking service.",
     solution:
-      'Timekeeper allows you to book appointments with people and store the appointments on the blockchain. This signals a higher level of commitment, accountability, and reduces the likelihood of cancellations.',
-    awards: 'Cash prize for integration of XMTP protocol',
+      'Timekeepr is an on-chain version of Calendly or Google Calendar with additional functionality provided by the blockchain.',
+    awards: 'Integration of XMTP protocol.',
     github: 'https://github.com/Timekeepr-me',
-    app: 'https://octav3.com/',
+    app: undefined,
     showcase: 'https://ethglobal.com/showcase/timekeepr-7sxm3',
   },
   {
