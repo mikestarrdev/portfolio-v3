@@ -1,4 +1,5 @@
 import Header from '@/components/header';
+import { Analytics } from '@vercel/analytics/react';
 import './globals.css';
 import { Inter } from 'next/font/google';
 import ActiveSectionContextProvider from '@/context/active-section-context';
@@ -43,6 +44,7 @@ export default function RootLayout({
           <ActiveSectionContextProvider>
             <Header />
             {children}
+            <Analytics />
             <Footer />
 
             <Toaster position="top-right" />

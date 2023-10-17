@@ -59,8 +59,7 @@ export default function About() {
         developer-focused solutions. Our main product? A decentralized exchange
         (DEX) that allows users to engage in server-based trading with
         professional market-makers. Additionally, we offer peer-to-peer OTC
-        trades of ERC20 tokens. We're currently building an NFT marketplace and
-        have a Voter Rewards staking app in the pipeline.
+        trades of ERC20 tokens.
       </p>
     </motion.section>
   );
