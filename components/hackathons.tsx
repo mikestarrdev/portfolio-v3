@@ -27,7 +27,11 @@ export const Hackathons = () => {
         } py-[1.3rem] px-[2rem] rounded-lg text-center`}
       >
         <h3 className="font-semibold text-xl">{hackathon.title}</h3>
-        <div className="">
+        <div>
+          <span className="font-semibold underline">Awards:</span>{' '}
+          {hackathon.awards}
+        </div>
+        <div>
           <span className="font-semibold underline">Dates:</span>{' '}
           {hackathon.dates}
         </div>
@@ -40,11 +44,8 @@ export const Hackathons = () => {
           <span className="font-semibold underline">Solution:</span>{' '}
           {hackathon.solution}
         </div>
-        <div>
-          <span className="font-semibold underline">Awards received:</span>{' '}
-          {hackathon.awards}
-        </div>
-        <div className="flex flex-row justify-center items-center font-semibold">
+        <div className="flex flex-row justify-center items-center mt-2 font-semibold">
+          {/* <span className="font-semibold underline mr-1">Links:</span>{' '} */}
           {hackathon.github && (
             <div className="flex items-center">
               <AiOutlineGithub style={{ marginRight: '0.25rem' }} />
@@ -53,7 +54,6 @@ export const Hackathons = () => {
               </a>
             </div>
           )}
-
           {hackathon.showcase && (
             <>
               {hackathon.github && <div className="ml-1">|</div>}
@@ -87,16 +87,10 @@ export const Hackathons = () => {
     <section
       id="hackathons"
       ref={ref}
-      className="flex flex-col mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28"
+      className="flex flex-col mb-28 max-w-[38rem] text-center leading-8 sm:mb-40 scroll-mt-28"
     >
       <SectionHeading>Hackathons and Awards</SectionHeading>
-      {/* <p>
-        Hackathons have been pivotal for growth as a software developer. These
-        events provide opportunities to learn new tech, grow your skills, and
-        network, all while competing for exciting prizes. Here is a list of
-        hackathons where my team and I won awards:
-      </p>
-      <br /> */}
+
       <div>{hackathonDisplay}</div>
     </section>
   );
