@@ -70,7 +70,7 @@ export const Project = ({
               <span>
                 <span className="mx-2">|</span>
                 <a href={demo} target="_">
-                  Video demo
+                  Demo
                 </a>
               </span>
             )}

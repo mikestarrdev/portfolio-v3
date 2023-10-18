@@ -1,6 +1,6 @@
 'use client';
 
-import React from 'react';
+import React, { ReactNode } from 'react';
 import { SectionHeading } from './section-heading';
 import {
   VerticalTimeline,
@@ -17,7 +17,6 @@ export const Experience = () => {
 
   const experienceData: any = experiencesData.map((item, index) => (
     <React.Fragment key={index}>
-      {/* @ts-ignore */}
       <VerticalTimelineElement
         contentStyle={{
           background:
@@ -34,7 +33,7 @@ export const Experience = () => {
               : '0.4rem solid rgba(255, 255, 255, 0.5)',
         }}
         date={item.date}
-        icon={item.icon}
+        icon={item.icon as any}
         iconStyle={{
           background: theme === 'light' ? 'white' : 'rgba(255, 255, 255, 0.15)',
           fontSize: '1.5rem',

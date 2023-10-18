@@ -202,7 +202,7 @@ export const hackathons = [
     title: 'ETH Denver',
     dates: 'Feb 24, 2023 - March 5, 2023',
     projectTitle: 'Kaching',
-    problem: 'The UX of sending crypto is too confusing for most people.',
+    problem: 'Crypto wallet UX is too unfamiliar for new users.',
     solution:
       "Use Keyp's API, which employs account abstraction, to simplify the user experience of sending cryptocurrency.",
     awards: 'Integration of Keyp API.',
@@ -214,7 +214,7 @@ export const hackathons = [
     title: 'ETH Global - ETHOnline',
     dates: 'Sept 2 - 28, 2022',
     projectTitle: 'Timekeeper',
-    problem: "There's a lack of solutions for Web3 calendar booking service.",
+    problem: "There's a lack of solutions for Web3 calendar booking services.",
     solution:
       'Timekeepr is an on-chain version of Calendly or Google Calendar with additional functionality provided by the blockchain.',
     awards: 'Integration of XMTP protocol.',
