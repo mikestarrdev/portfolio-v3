@@ -27,35 +27,21 @@ export const Hackathons = () => {
         } py-[1.3rem] px-[2rem] rounded-lg text-center`}
       >
         <h3 className="my-2 font-bold text-xl">{hackathon.awards}</h3>
-        <div>
-          <ul>
-            <li>
-              <span className="font-semibold underline">Event:</span>{' '}
-              <span className="font-medium italic">{hackathon.event}</span>. (
-              {hackathon.dates}).
-            </li>
-            <li>
-              <span className="font-semibold underline">Problem:</span>{' '}
-              {hackathon.problem}
-            </li>
-            <li>
-              <span className="font-semibold underline">Solution:</span>{' '}
-              {hackathon.solution}
-            </li>
-          </ul>
-          {/* <span className="font-semibold underline">Event:</span>{' '}
-          <span className="font-medium italic">{hackathon.event}</span>. (
-          {hackathon.dates}). */}
-        </div>
-
-        {/* <div>
-          <span className="font-semibold underline">Problem:</span>{' '}
-          {hackathon.problem}
-        </div> */}
-        {/* <div>
-          <span className="font-semibold underline">Solution:</span>{' '}
-          {hackathon.solution}
-        </div> */}
+        <ul>
+          <li>
+            <span className="font-semibold underline">Event:</span>{' '}
+            <span className="font-medium italic">{hackathon.event}</span>. (
+            {hackathon.dates}).
+          </li>
+          <li>
+            <span className="font-semibold underline">Problem:</span>{' '}
+            {hackathon.problem}
+          </li>
+          <li>
+            <span className="font-semibold underline">Solution:</span>{' '}
+            {hackathon.solution}
+          </li>
+        </ul>
         <div className="flex flex-row justify-center items-center mt-2 font-semibold">
           {/* <span className="font-semibold underline mr-1">Links:</span>{' '} */}
           {hackathon.github && (
