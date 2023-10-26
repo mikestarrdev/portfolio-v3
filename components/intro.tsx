@@ -72,13 +72,14 @@ export const Intro = () => {
       </motion.h1>
 
       <motion.div
-        className="flex flex-col items-center justify-center gap-2 px-4 text-lg font-medium"
+        className="flex flex-col items-center justify-center gap-2 px-4 text-lg"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{
           delay: 0.1,
         }}
       >
+        {/* <button> */}
         <Link
           href="#contact"
           className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
@@ -91,38 +92,41 @@ export const Intro = () => {
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
 
-        <a
-          className="flex items-center my-1.5 px-7 py-3 group bg-white  gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-          href="/mike_starr_cv.pdf"
-          download
-        >
-          Download CV{' '}
-          <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
-        </a>
-        <div className="flex flex-row">
+        <button>
           <a
-            className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-            href="https://linkedin.com/in/mike-starr"
-            target="_blank"
+            className="flex items-center my-1.5 px-7 py-3 group bg-white  gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
+            href="/mike_starr_cv.pdf"
+            download
           >
-            LinkedIn <BsLinkedin />
+            Download CV{' '}
+            <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
           </a>
+        </button>
+        <div className="flex items-center content-center self-center space-x-2">
+          <button>
+            <a href="https://linkedin.com/in/mike-starr" target="_blank">
+              <div className="flex flex-row items-center w-fit bg-white p-4 text-gray-700 hover:text-gray-950 gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60">
+                <span>LinkedIn</span>{' '}
+                <BsLinkedin className="hidden sm:block ml-1" />
+              </div>
+            </a>
+          </button>
 
-          <a
-            className="mx-2 bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-            href="https://github.com/personnamedmike"
-            target="_blank"
-          >
-            GitHub
-            <FaGithubSquare />
-          </a>
-          <a
-            className="bg-white py-3 px-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-            href="https://mirror.xyz/starrdev.eth"
-            target="_blank"
-          >
-            Blog <AiOutlineRead />
-          </a>
+          <button>
+            <a href="https://github.com/personnamedmike" target="_blank">
+              <div className="flex flex-row items-center w-fit bg-white p-4 text-gray-700 hover:text-gray-950 gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60">
+                <span>GitHub</span>
+                <FaGithubSquare className="hidden sm:block" />
+              </div>
+            </a>
+          </button>
+          <button>
+            <a href="https://mirror.xyz/starrdev.eth" target="_blank">
+              <div className="flex flex-row items-center w-fit bg-white p-4 text-gray-700 hover:text-gray-950 gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60">
+                <span>Blog</span> <AiOutlineRead className="hidden sm:block" />
+              </div>
+            </a>
+          </button>
         </div>
       </motion.div>
     </section>
