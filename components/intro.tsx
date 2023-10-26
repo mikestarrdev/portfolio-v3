@@ -64,11 +64,11 @@ export const Intro = () => {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Mike,</span> a{' '}
+        <span className="font-bold">Hello, I'm Mike,</span> an experienced{' '}
         <span className="font-bold">software developer</span> who specializes in{' '}
-        <span className="font-bold">TypeScript and React</span>. I'm a team
-        player, fast learner, and open to working on any part of the tech stack.{' '}
-        <span className="font-bold">Let's build cool stuff together!</span>
+        <span className="font-bold">TypeScript, JavaScript and React</span>. I'm
+        a team player, lifelong learner, and excited to build cool stuff.{' '}
+        <span className="font-bold">Let's connect!</span>
       </motion.h1>
 
       <motion.div
