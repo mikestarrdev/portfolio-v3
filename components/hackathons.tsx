@@ -42,29 +42,30 @@ export const Hackathons = () => {
           <span className="font-semibold">Awards received:</span>{' '}
           {hackathon.awards}
         </p>
-        <div className="flex justify-center w-full mt-4 mb-2 leading-relaxed">
+        <p className="font-semibold">
           {hackathon.github && (
-            <div>
+            <>
               <a href={hackathon.github} target="_">
-                <ProjectBtn type="github" />
+                GitHub
+
               </a>
-            </div>
+            </>
           )}
           {hackathon.showcase && (
-            <div className="mx-2">
+            <>
+              {hackathon.github && <> | </>}
               <a href={hackathon.showcase} target="_">
-                <ProjectBtn type="demo" />
+                Showcase
               </a>
-            </div>
+            </>
           )}
           {hackathon.app && (
-            <div className="mx-2">
-              <a href={hackathon.app} target="_">
-                <ProjectBtn type="project" />
-              </a>
-            </div>
+            <a href={hackathon.app} target="_">
+              {' '}
+              | App
+            </a>
           )}
-        </div>
+        </p>
       </div>
     );
   });
