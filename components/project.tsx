@@ -42,6 +42,13 @@ export const Project = ({
           <Link href={app || github} target="_">
             <h3 className="text-2xl font-semibold">{title}</h3>
           </Link>
+          <Image
+            src={imageUrl}
+            alt="Project I worked on"
+            quality={95}
+            loading="lazy"
+            className="block sm:hidden top-8 -right-40 w-[28.25rem] my-2 rounded"
+          />
           <p className="mt-2 leading-relaxed text-gray-700 dark:text-white/70">
             <span className="font-bold underline">Description:</span>{' '}
             {description}

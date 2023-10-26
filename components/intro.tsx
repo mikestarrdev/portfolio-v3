@@ -72,7 +72,7 @@ export const Intro = () => {
       </motion.h1>
 
       <motion.div
-        className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
+        className="flex flex-col items-center justify-center gap-2 px-4 text-lg font-medium"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{
@@ -105,7 +105,7 @@ export const Intro = () => {
             href="https://linkedin.com/in/mike-starr"
             target="_blank"
           >
-            <BsLinkedin />
+            LinkedIn <BsLinkedin />
           </a>
 
           <a
@@ -113,6 +113,7 @@ export const Intro = () => {
             href="https://github.com/personnamedmike"
             target="_blank"
           >
+            GitHub
             <FaGithubSquare />
           </a>
           <a
