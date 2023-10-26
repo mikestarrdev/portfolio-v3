@@ -200,31 +200,31 @@ export const skillsData = [
 export const hackathons = [
   {
     title: 'ETH Denver',
-    dates: 'Feb 24, 2023 - March 5, 20223',
+    dates: 'Feb - March 5, 2023',
     projectTitle: 'Kaching',
     problem: 'The UX of sending crypto is too confusing for most people.',
     solution:
       "Use Keyp's API, which employs account abstraction, to simplify the user experience of sending cryptocurrency.",
-    awards: 'Integration of Keyp API.',
+    awards: 'Integration of Keyp API',
     github: 'https://github.com/personnamedmike/KachingETHDenver',
     app: 'https://kaching-eth-denver.vercel.app/login',
     showcase: undefined,
   },
   {
     title: 'ETH Global - ETHOnline',
-    dates: 'Sept 2 - 28, 2022',
+    dates: 'Sept, 2022',
     projectTitle: 'Timekeeper',
     problem: "There's a lack of solutions for Web3 calendar booking service.",
     solution:
       'Timekeepr is an on-chain version of Calendly or Google Calendar with additional functionality provided by the blockchain.',
-    awards: 'Integration of XMTP protocol.',
+    awards: 'Integration of XMTP protocol',
     github: 'https://github.com/Timekeepr-me',
     app: undefined,
     showcase: 'https://ethglobal.com/showcase/timekeepr-7sxm3',
   },
   {
     title: 'ETH Global - Metabolism',
-    dates: 'Aug 4 - 10, 2022',
+    dates: 'Aug, 2022',
     projectTitle: 'Octave',
     problem:
       'The current music streaming model is broken. Platforms take huge cuts from artists, advertisers get access to user data and there’s absolutely no transparency in the whole process.',

@@ -24,13 +24,16 @@ export const Hackathons = () => {
           index === 1 && 'my-8'
         } py-[1.3rem] px-[2rem] rounded-lg text-center`}
       >
-        <h3 className="font-semibold text-xl">{hackathon.title}</h3>
+        <h3 className="font-semibold text-xl">{hackathon.awards}</h3>
+        <p>
+          <span className="font-semibold">Event:</span> {hackathon.title}
+        </p>
         <p className="">
           <span className="font-semibold">Dates:</span> {hackathon.dates}
         </p>
         <p>
           <span className="font-semibold">Project title:</span>{' '}
-          {hackathon.title}
+          {hackathon.projectTitle}
         </p>
         <p>
           <span className="font-semibold">Problem:</span> {hackathon.problem}
@@ -38,34 +41,30 @@ export const Hackathons = () => {
         <p>
           <span className="font-semibold">Solution:</span> {hackathon.solution}
         </p>
-        <p>
-          <span className="font-semibold">Awards received:</span>{' '}
-          {hackathon.awards}
-        </p>
-        <p className="font-semibold">
-          {hackathon.github && (
-            <>
-              <a href={hackathon.github} target="_">
-                GitHub
 
+        <div className="flex justify-center mt-4">
+          {hackathon.github && (
+            <div>
+              <a href={hackathon.github} target="_">
+                <ProjectBtn type="github" />
               </a>
-            </>
+            </div>
           )}
           {hackathon.showcase && (
-            <>
-              {hackathon.github && <> | </>}
+            <div className="ml-2">
               <a href={hackathon.showcase} target="_">
-                Showcase
+                <ProjectBtn type="demo" />
               </a>
-            </>
+            </div>
           )}
           {hackathon.app && (
-            <a href={hackathon.app} target="_">
-              {' '}
-              | App
-            </a>
+            <div className="ml-2">
+              <a href={hackathon.app} target="_">
+                <ProjectBtn type="project" />
+              </a>
+            </div>
           )}
-        </p>
+        </div>
       </div>
     );
   });

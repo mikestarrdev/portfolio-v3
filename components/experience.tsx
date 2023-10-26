@@ -34,7 +34,7 @@ export const Experience = () => {
               : '0.4rem solid rgba(255, 255, 255, 0.5)',
         }}
         date={item.date}
-        icon={item.icon}
+        icon={item.icon as any}
         iconStyle={{
           background: theme === 'light' ? 'white' : 'rgba(255, 255, 255, 0.15)',
           fontSize: '1.5rem',
