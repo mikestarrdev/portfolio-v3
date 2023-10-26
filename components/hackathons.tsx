@@ -5,6 +5,7 @@ import { hackathons } from '@/lib/data';
 import { SectionHeading } from './section-heading';
 import { useSectionInView } from '@/lib/hooks';
 import { useTheme } from '@/context/theme-context';
+import { ProjectBtn } from './project-btn';
 
 export const Hackathons = () => {
   const { ref } = useSectionInView('Experience');
@@ -46,6 +47,7 @@ export const Hackathons = () => {
             <>
               <a href={hackathon.github} target="_">
                 GitHub
+
               </a>
             </>
           )}
@@ -75,12 +77,6 @@ export const Hackathons = () => {
       className="flex flex-col mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28"
     >
       <SectionHeading>Hackathons and Awards</SectionHeading>
-      <p>
-        Hackathons have been pivotal for growth as a software developer. These
-        events provide opportunities to learn new tech, grow your skills, and
-        network, all while competing for exciting prizes. Here is a list of
-        hackathons where my team and I won awards:
-      </p>
       <br />
       <div>{hackathonDisplay}</div>
     </section>

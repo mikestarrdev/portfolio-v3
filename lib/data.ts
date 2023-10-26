@@ -43,20 +43,12 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: 'Director of Marketing - Starr Conversions LLC',
-    location: 'New York City Metropolitan Area',
-    description:
-      'As the Marketing Director in a small, fast-paced startup, I managed and analyzed media campaigns using Facebook Ads and Google AdWords, while also directing operations for Shopify eCommerce stores, achieving over $1 million in annual revenue.',
-    icon: React.createElement(CgWorkAlt),
-    date: 'Feb 2014 - Dec 2020',
-  },
-  {
-    title: 'Full-stack Development program - Flatiron School',
+    title: 'Web Developer - AirSwap',
     location: 'Remote',
     description:
-      'Full-stack engineering program with a focus on: JavaScript, React, Ruby, Ruby on Rails, REST API, Sinatra, and Active Record. This experience was pivital in teaching me "how to learn" and think like an engineer.',
-    icon: React.createElement(LuGraduationCap),
-    date: 'Completed April 2022',
+      "My primary contribution to AirSwap has been the front-end development of the Member Dashboard app. Additionally, I worked on maintaining and developing new features for AirSwap's decentralized trading product, which handles over $1.4 billion in annual volume. My work as a web developer involved using TypeScript, React, Tailwind, Styled-Components, and Ethers.js.",
+    icon: React.createElement(FaReact),
+    date: 'May 2023 - present',
   },
   {
     title: 'Software Developer - RaidGuild',
@@ -67,12 +59,20 @@ export const experiencesData = [
     date: 'Aug 2022 - June 2023',
   },
   {
-    title: 'Web Developer - AirSwap',
+    title: 'Full-stack Development program - Flatiron School',
     location: 'Remote',
     description:
-      "My primary contribution to AirSwap has been the front-end development of the Member Dashboard app. Additionally, I worked on maintaining and developing new features for AirSwap's decentralized trading product, which handles over $1.4 billion in annual volume. My work as a web developer involved using TypeScript, React, Tailwind, Styled-Components, and Ethers.js.",
-    icon: React.createElement(FaReact),
-    date: 'May 2023 - present',
+      'Full-stack engineering program with a focus on: JavaScript, React, Ruby, Ruby on Rails, REST API, Sinatra, and Active Record. This experience was pivital in teaching me "how to learn" and think like an engineer.',
+    icon: React.createElement(LuGraduationCap),
+    date: 'Completed April 2022',
+  },
+  {
+    title: 'Director of Marketing - Starr Conversions LLC',
+    location: 'New York City Metropolitan Area',
+    description:
+      'As the Marketing Director in a small, fast-paced startup, I managed and analyzed media campaigns using Facebook Ads and Google AdWords, while also directing operations for Shopify eCommerce stores, achieving over $1 million in annual revenue.',
+    icon: React.createElement(CgWorkAlt),
+    date: 'Feb 2014 - Dec 2020',
   },
 ] as const;
 
