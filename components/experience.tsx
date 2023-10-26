@@ -1,6 +1,6 @@
 'use client';
 
-import React, { ReactNode } from 'react';
+import React from 'react';
 import { SectionHeading } from './section-heading';
 import {
   VerticalTimeline,
@@ -17,6 +17,7 @@ export const Experience = () => {
 
   const experienceData: any = experiencesData.map((item, index) => (
     <React.Fragment key={index}>
+      {/* @ts-ignore */}
       <VerticalTimelineElement
         contentStyle={{
           background:

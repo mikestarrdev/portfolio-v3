@@ -5,6 +5,8 @@ import { projectsData } from '@/lib/data';
 import Image from 'next/image';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import Link from 'next/link';
+import { Button } from '@react-email/components';
+import { ProjectBtn } from './project-btn';
 
 type ProjectProps = (typeof projectsData)[number];
 
@@ -48,33 +50,29 @@ export const Project = ({
             <span className="font-bold underline">Contributions:</span>{' '}
             {contributions}
           </p>
-          <p className="flex flex-row items-center mt-2 leading-relaxed text-gray-700 dark:text-white/70 font-semibold">
-            <span className="mr-2">🚀</span>
+          <div className="flex items-start w-full mt-4 mb-2 leading-relaxed">
             {github && (
-              <>
+              <div>
                 <a href={github} target="_">
-                  GitHub
+                  <ProjectBtn type="github" />
                 </a>
-              </>
+              </div>
             )}
             {app && (
-              <span>
-                {/* handles close-sourced projects */}
-                {github && <span className="mx-2">|</span>}
+              <div className="mx-2">
                 <a href={app} target="_">
-                  App
+                  <ProjectBtn type="project" />
                 </a>
-              </span>
+              </div>
             )}
             {demo && (
-              <span>
-                <span className="mx-2">|</span>
+              <div>
                 <a href={demo} target="_">
-                  Demo
+                  <ProjectBtn type="demo" />
                 </a>
-              </span>
+              </div>
             )}
-          </p>
+          </div>
 
           <ul className="flex flex-wrap mt-4 gap-2 sm:mt-4">
             {tags.map((tag, index) => (

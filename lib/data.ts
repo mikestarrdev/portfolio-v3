@@ -43,20 +43,12 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: 'Director of Marketing - Starr Conversions LLC',
-    location: 'New York City Metropolitan Area',
-    description:
-      'As the Marketing Director in a small, fast-paced startup, I managed and analyzed media campaigns using Facebook Ads and Google AdWords, while also directing operations for Shopify eCommerce stores, achieving over $1 million in annual revenue.',
-    icon: React.createElement(CgWorkAlt),
-    date: 'Feb 2014 - Dec 2020',
-  },
-  {
-    title: 'Full-stack Development program - Flatiron School',
+    title: 'Web Developer - AirSwap',
     location: 'Remote',
     description:
-      'Full-stack engineering program with a focus on: JavaScript, React, Ruby, Ruby on Rails, REST API, Sinatra, and Active Record. This experience was pivital in teaching me "how to learn" and think like an engineer.',
-    icon: React.createElement(LuGraduationCap),
-    date: 'Completed April 2022',
+      "My primary contribution to AirSwap has been the front-end development of the Member Dashboard app. Additionally, I worked on maintaining and developing new features for AirSwap's decentralized trading product, which handles over $1.4 billion in annual volume. My work as a web developer involved using TypeScript, React, Tailwind, Styled-Components, and Ethers.js.",
+    icon: React.createElement(FaReact),
+    date: 'May 2023 - present',
   },
   {
     title: 'Software Developer - RaidGuild',
@@ -67,12 +59,20 @@ export const experiencesData = [
     date: 'Aug 2022 - June 2023',
   },
   {
-    title: 'Web Developer - AirSwap',
+    title: 'Full-stack Development program - Flatiron School',
     location: 'Remote',
     description:
-      "My primary contribution to AirSwap has been the front-end development of the Member Dashboard app. Additionally, I worked on maintaining and developing new features for AirSwap's decentralized trading product, which handles over $1.4 billion in annual volume. My work as a web developer involved using TypeScript, React, Tailwind, Styled-Components, and Ethers.js.",
-    icon: React.createElement(FaReact),
-    date: 'May 2023 - present',
+      'Full-stack engineering program with a focus on: JavaScript, React, Ruby, Ruby on Rails, REST API, Sinatra, and Active Record. This experience was pivital in teaching me "how to learn" and think like an engineer.',
+    icon: React.createElement(LuGraduationCap),
+    date: 'Completed April 2022',
+  },
+  {
+    title: 'Director of Marketing - Starr Conversions LLC',
+    location: 'New York City Metropolitan Area',
+    description:
+      'As the Marketing Director in a small, fast-paced startup, I managed and analyzed media campaigns using Facebook Ads and Google AdWords, while also directing operations for Shopify eCommerce stores, achieving over $1 million in annual revenue.',
+    icon: React.createElement(CgWorkAlt),
+    date: 'Feb 2014 - Dec 2020',
   },
 ] as const;
 
@@ -199,38 +199,38 @@ export const skillsData = [
 
 export const hackathons = [
   {
-    awards: 'Integration of Keyp API',
-    event: 'ETH Denver',
-    dates: 'Feb - March 2023',
+    title: 'ETH Denver',
+    dates: 'Feb 24, 2023 - March 5, 20223',
     projectTitle: 'Kaching',
-    problem: 'Crypto wallet UX is too unfamiliar for new users.',
+    problem: 'The UX of sending crypto is too confusing for most people.',
     solution:
       "Use Keyp's API, which employs account abstraction, to simplify the user experience of sending cryptocurrency.",
+    awards: 'Integration of Keyp API.',
     github: 'https://github.com/personnamedmike/KachingETHDenver',
     app: 'https://kaching-eth-denver.vercel.app/login',
     showcase: undefined,
   },
   {
-    awards: 'Integration of XMTP protocol',
-    event: 'ETH Global - ETHOnline',
-    dates: 'Sept, 2022',
+    title: 'ETH Global - ETHOnline',
+    dates: 'Sept 2 - 28, 2022',
     projectTitle: 'Timekeeper',
-    problem: "There's a lack Web3 calendar scheduling apps.",
+    problem: "There's a lack of solutions for Web3 calendar booking service.",
     solution:
       'Timekeepr is an on-chain version of Calendly or Google Calendar with additional functionality provided by the blockchain.',
+    awards: 'Integration of XMTP protocol.',
     github: 'https://github.com/Timekeepr-me',
     app: undefined,
     showcase: 'https://ethglobal.com/showcase/timekeepr-7sxm3',
   },
   {
-    awards: 'IPFS - integration of NFT.storage',
-    event: 'ETH Global - Metabolism',
-    dates: 'Aug, 2022',
+    title: 'ETH Global - Metabolism',
+    dates: 'Aug 4 - 10, 2022',
     projectTitle: 'Octave',
     problem:
       'The current music streaming model is broken. Platforms take huge cuts from artists, advertisers get access to user data and there’s absolutely no transparency in the whole process.',
     solution:
       'A decentralised audio streaming platform; for the discovery of music by listeners and the distribution of ads to monetize this music.',
+    awards: 'IPFS Prize Winner for integration of NFT.storage',
     github: undefined,
     app: 'https://octav3.com/',
     showcase: 'https://ethglobal.com/showcase/octav3-3o04c',
