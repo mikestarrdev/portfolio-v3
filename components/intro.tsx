@@ -85,9 +85,8 @@ export const Intro = () => {
         <button>
           <Link
             href="#contact"
-            className={`group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition ${
-              dark && 'border border-1 border-color-white'
-            }`}
+            className={`group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition
+              dark:border dark:border-1 dark:border-white/10`}
             onClick={() => {
               setActiveSection('Contact');
               setTimeOfLastClick(Date.now());
