@@ -118,7 +118,7 @@ export const Intro = () => {
           </button>
 
           <button>
-            <a href="https://github.com/personnamedmike" target="_blank">
+            <a href="https://github.com/mikestarrdev" target="_blank">
               <div className="flex flex-row items-center w-fit bg-white p-4 text-gray-700 hover:text-gray-950 gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60">
                 <span>GitHub</span>
                 <FaGithubSquare className="hidden sm:block" />

@@ -7,7 +7,7 @@ export const Footer = () => {
         &copy; 2023 Mike Starr. All rights reserved.
       </small>
       <p className="text-xs font-semibold">
-        <a href="https://github.com/personnamedmike" target="_">
+        <a href="https://github.com/mikestarrdev" target="_">
           GitHub
         </a>{' '}
         |{' '}
