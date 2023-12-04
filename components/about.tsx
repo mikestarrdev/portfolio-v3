@@ -18,48 +18,33 @@ export const About = () => {
       id="about"
     >
       <SectionHeading>About me</SectionHeading>
+
       <p>
-        I transitioned from digital marketing to software engineering. Now, I'm
-        a developer at AirSwap, a decentralized protocol that has facilitated
-        trades worth over $3.68 billion in value. I'm passionate about crafting
-        top-notch user experiences. My skill set includes React, TypeScript,
-        JavaScript, CSS, and HTML. But, my goal? Building apps that truly
-        connect with users.
+        I'm a software engineer 💻 and web developer at AirSwap, specializing in
+        building front-end applications and designing user interfaces for a
+        decentralized trading platform that boasts a swap volume exceeding $3.89
+        billion in value 💸.
       </p>
-      <h3 className="my-4 text-2xl font-semibold">The beginning</h3>
+      <br />
       <p>
-        In 2020, I dove into software development, starting with JavaScript.
-        Feeling the pull, I took it up a notch. I enrolled at Flatiron School
-        for full-stack software engineering. There, I got hands-on with
-        languages and tech: JavaScript, React, Ruby, Ruby on Rails, REST API,
-        Sinatra, and Active Record. But Flatiron wasn't just about coding; it
-        taught me how to learn. That experience boosted my foundation in
-        software dev and my confidence.
+        My coding journey began in 2020 through self-learning, and in 2022, I
+        completed a software engineering program at Flatiron School. This
+        program, focusing on JavaScript, React, Ruby, Ruby on Rails, Sinatra,
+        and Active Record, was pivotal in connecting the dots between
+        front-ends, back-ends, and databases.
       </p>
-      <h3 className="my-4 text-2xl font-semibold">
-        Entering the world of blockchain
-      </h3>
+      <br />
       <p>
-        After graduation, I explored the blockchain ecosystem by participating
-        in renowned hackathons including ETH Global New York, ETH Global
-        Metabolism, ETH Online 2022, and ETH Denver 2023. Notably, during ETH
-        Global Metabolism, my team was awarded a prize by Filecoin for our
-        innovative use of nft.storage, which leverages IPFS.
+        Before diving into software development, I owned a startup, delving into
+        affiliate marketing and managing marketing campaigns for in-house
+        e-commerce stores. 💼
       </p>
-      <h3 className="my-4 text-2xl font-semibold">Journey with RaidGuild</h3>
+      <br />
       <p>
-        August 2022 was special. I teamed up with the folks at RaidGuild. Moving
-        from collaboration to full membership, it was a game-changer for my
-        career. It was more than development; I learned the ins and outs of
-        DAOs.
-      </p>
-      <h3 className="my-4 text-2xl font-semibold">AirSwap and beyond</h3>
-      <p>
-        By Spring 2023, I joined the AirSwap team. We're all about
-        developer-focused solutions. Our main product? A decentralized exchange
-        (DEX) that allows users to engage in server-based trading with
-        professional market-makers. Additionally, we offer peer-to-peer OTC
-        trades of ERC20 tokens.
+        Beyond tech, I'm passionate about the outdoors, enjoying activities like
+        rock climbing 🧗🏼, mountaineering ⛰️, traveling ✈️, trail running 🏃🏼, and
+        indulging in great food and coffee ☕. I've explored over 35 countries,
+        and even scaled some of the largest cliff faces in the USA!
       </p>
     </motion.section>
   );
