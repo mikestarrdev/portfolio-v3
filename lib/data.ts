@@ -1,14 +1,15 @@
+import React from 'react';
 import { CgWorkAlt } from 'react-icons/cg';
 import { LuGraduationCap } from 'react-icons/lu';
 import { FaReact } from 'react-icons/fa';
 import memberDashboard from '@/public/memberDashboard.png';
+import debuggerApp from '@/public/debugger.png';
 import airswapWeb from '@/public/airswapWeb.png';
 import wrapeth from '@/public/wrapeth.png';
 import rom from '@/public/rom.png';
 import Kaching from '@/public/kaching.png';
 import octav3 from '@/public/octav3.png';
 import designSystem from '@/public/designSystem.png';
-import React from 'react';
 
 export const links = [
   {
@@ -77,6 +78,17 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: 'AirSwap Debugger',
+    description:
+      'DeFi tool for AirSwap market-makers to debug their server setup',
+    contributions: 'I built the entire UI and designed the UX',
+    tags: ['TypeScript', 'JavaScript', 'React', 'Tailwind', 'Web3', 'Wagmi'],
+    github: 'https://github.com/airswap/airswap-debugger',
+    app: 'https://check.airswap.eth.limo',
+    demo: undefined,
+    imageUrl: debuggerApp,
+  },
   {
     title: 'AirSwap Member Dashboard',
     description:

@@ -67,11 +67,11 @@ export const Intro = () => {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Mike,</span> an experienced{' '}
-        <span className="font-bold">software developer</span> who specializes in{' '}
-        <span className="font-bold">TypeScript, JavaScript and React</span>. I'm
-        a team player, lifelong learner, and excited to build cool stuff.{' '}
-        <span className="font-bold">Let's connect!</span>
+        <span className="font-bold">Hey, I'm Mike,</span> a
+        <span className="font-bold">TypeScript and React developer</span>. As a
+        team player, and I thrive on autonomy and and take pride in owning my
+        work. This app serves as a visual showcase of my journey as a software
+        developer. Let's connect and explore the projects together!
       </motion.h1>
 
       <motion.div
