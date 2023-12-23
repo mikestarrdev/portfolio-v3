@@ -67,11 +67,12 @@ export const Intro = () => {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hey, I'm Mike,</span> a
-        <span className="font-bold">TypeScript and React developer</span>. As a
-        team player, and I thrive on autonomy and and take pride in owning my
-        work. This app serves as a visual showcase of my journey as a software
-        developer. Let's connect and explore the projects together!
+        <span className="font-bold">Hey, I'm Mike,</span> a front-end developer.
+        My specialty is building user interfaces with
+        <span className="font-bold">TypeScript, React, and TailwindCSS</span>.
+        I'm a team player, thrive on autonomy and love taking ownership of my
+        work. Scroll down this page to gauge my experience and talent for
+        yourself!
       </motion.h1>
 
       <motion.div
@@ -85,7 +86,7 @@ export const Intro = () => {
         <button>
           <Link
             href="#contact"
-            className={`group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition
+            className={`group bg-gray-900 text-white px-7 py-3 mb-2 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition
               dark:border dark:border-1 dark:border-white/10`}
             onClick={() => {
               setActiveSection('Contact');
@@ -97,7 +98,7 @@ export const Intro = () => {
           </Link>
         </button>
 
-        <button>
+        {/* <button>
           <a
             className="flex items-center my-1.5 px-7 py-3 group bg-white  gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
             href="/mike_starr_cv.pdf"
@@ -106,7 +107,7 @@ export const Intro = () => {
             Download CV{' '}
             <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
           </a>
-        </button>
+        </button> */}
         <div className="flex items-center content-center self-center space-x-2">
           <button>
             <a href="https://linkedin.com/in/mike-starr" target="_blank">

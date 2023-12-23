@@ -44,16 +44,16 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: 'Web Developer - AirSwap',
-    location: 'Remote',
+    title: 'Front-end Web Developer - AirSwap',
+    website: 'https://airswap.io',
     description:
-      "My primary contribution to AirSwap has been the front-end development of the Member Dashboard app. Additionally, I worked on maintaining and developing new features for AirSwap's decentralized trading product, which handles over $1.4 billion in annual volume. My work as a web developer involved using TypeScript, React, Tailwind, Styled-Components, and Ethers.js.",
+      'AirSwap is a developer community that focuses on DeFi projects. Our flagship product is the AirSwap Web app, which is a decentralized, peer-to-peer trading platform, which has facilitated over $4 billion in trading volume.',
     icon: React.createElement(FaReact),
     date: 'May 2023 - present',
   },
   {
     title: 'Software Developer - RaidGuild',
-    location: 'Remote',
+    website: 'https://raidguild.org',
     description:
       'I freelanced as a front-end developer, acquiring valuable experience with Web3 technology. During my tenure at RaidGuild, I collaborated with multiple teams to create new open-source applications and sustain existing applications serving as public goods.',
     icon: React.createElement(FaReact),
@@ -61,7 +61,7 @@ export const experiencesData = [
   },
   {
     title: 'Full-stack Development program - Flatiron School',
-    location: 'Remote',
+    website: 'https://flatironschool.com/',
     description:
       'Full-stack engineering program with a focus on: JavaScript, React, Ruby, Ruby on Rails, REST API, Sinatra, and Active Record. This experience was pivital in teaching me "how to learn" and think like an engineer.',
     icon: React.createElement(LuGraduationCap),
@@ -69,7 +69,8 @@ export const experiencesData = [
   },
   {
     title: 'Director of Marketing - Starr Conversions LLC',
-    location: 'New York City Metropolitan Area',
+    website: undefined,
+    // location: 'New York City Metropolitan Area',
     description:
       'As the Marketing Director in a small, fast-paced startup, I managed and analyzed media campaigns using Facebook Ads and Google AdWords, while also directing operations for Shopify eCommerce stores, achieving over $1 million in annual revenue.',
     icon: React.createElement(CgWorkAlt),
