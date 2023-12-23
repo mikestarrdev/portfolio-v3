@@ -220,7 +220,7 @@ export const hackathons = [
       "Use Keyp's API, which employs account abstraction, to simplify the user experience of sending cryptocurrency.",
     awards: 'Integration of Keyp API',
     github: 'https://github.com/mikestarrdev/KachingETHDenver',
-    app: 'https://kaching-eth-denver.vercel.app/login',
+    app: 'https://kaching.money',
     showcase: undefined,
   },
   {
